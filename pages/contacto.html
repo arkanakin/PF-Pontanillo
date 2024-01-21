@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/invitarteIcon.png">
+        <link rel="stylesheet" href="../css/custom.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+         <!--SEO Meta-->
+         <meta name="description" content="Creamos invitaciones digitales para bodas y XV, diseños personalizados a tu gusto. Control de pases, música, GPS y más.">
+         <meta name="keywords" content="invitaciones personalizados, invitaciones digitales, invitaciones para boda, invitaciones XV años">
+         <meta name="author" content="Arkanakin">
+         <meta name="copyright" content="PubliStudio">
+         <meta name="revised" content="20/01/2024">
+         
+         <!--Meta opengraph-->
+         <meta property="og:title" content="Invitarte Studio - Invitaciones Digitales"><!--Miniatura que se manda en un link ejemplo whatsapp-->
+         <meta property="og:description" content="">
+         <meta property="og:type" content="article">
+         
+         <title>Reseñas Clientes - InvitArte</title>
+    </head>
+</head>
+<body class="contactoBody">
+
+    <!-- Menu Redes Sociales-->
+    <div class="bg-dark py-2 d-sm-flex justify-content-center d-none">
+        <a href="" class="text-white mx-4"><span class="bi bi-facebook"></span></a>
+        <a href="" class="text-white mx-4"><span class="bi bi-instagram"></span></a>
+        <a href="" class="text-white mx-4"><span class="bi bi-twitter-x"></span></a>
+        <a href="" class="text-white mx-4"><span class="bi bi-youtube"></span></a>
+        <a href="" class="text-white mx-4"><span class="bi bi-whatsapp"></span></a>
+    </div>
+    
+    <!-- Menu Principal-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbarinvitArte">
+        <div class="container">
+            <!-- Icono de Menu -->
+            <a class="navbar-brand" href="#">
+                <img src="../img/InvitArteStudioLogo.png" alt="" width="50px" class="me-2">
+                InvitArte Studio
+            </a>
+            
+            <!-- Boton Responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Menu / Enlaces-->
+            <div class="collapse navbar-collapse pb-2 pb-lg-0" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/testimonios.html">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/ejemplos.html">Ejemplos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contacto.html">Ayuda</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="btn btn-dark btn- rounded-pill" data-bs-toggle="modal" data-bs-target="#modalContacto">Contáctanos</button>
+               </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="contacto">
+            <form class="my-form">
+                <div class="container">
+                <h1 style="text-align: center;">Ayuda</h1>
+                <ul>
+                    <li>
+                    <select>
+                        <option selected disabled>-- Selecciona una opcion --</option>
+                        <option>Boda</option>
+                        <option>Cumpleaños</option>
+                        <option>Otro</option>      
+                    </select>
+                    </li>
+                    <li>
+                    <div class="grid grid-2">
+                        <input type="text" placeholder="Nombre" required>  
+                        <input type="text" placeholder="Apellido" required>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="grid grid-2">
+                        <input type="email" placeholder="Email" required>  
+                        <input type="tel" placeholder="Telefono">
+                    </div>
+                    </li>    
+                    <li>
+                    <textarea placeholder="Escribe tu mensaje"></textarea>
+                    </li>   
+                    <li>
+                    <div class="grid grid-3">
+                        <div class="required-msg">Campos requeridos</div>
+                        <button class="btn-grid" type="submit">
+                        <span class="back">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                        </span>
+                        <span class="front">Enviar</span>
+                        </button>
+                        <button class="btn-grid" type="reset">
+                        <span class="back">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                        </span>
+                        <span class="front">Borrar</span>
+                        </button> 
+                    </div>
+                    </li>    
+                </ul>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <div class="boletin">
+        <div>
+            <div style="align-self: stretch; height: 1px; background: black"></div>
+            <div>© 2023 InvitaStudio. All rights reserved.</div>
+            <div>
+                <div>
+                    <div>Privacy Policy</div>
+                    <div>Terms of Service</div>
+                    <div>Cookie Settings</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- Modal -->
+    <div class="modal fade" id="modalContacto" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+                  <div class="modal-header">
+                       <h5 class="modal-title">Escribenos un mensaje...</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+
+                  <div class="modal-body p-4">
+                       <form class="row">
+                            <div class="col-12 col-sm-6 mb-3">
+                                 <label for="name">Nombre</label>
+                                 <input type="text" class="form-control" id="name">
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 mb-3">
+                                 <label for="email">Email</label>
+                                 <input type="text" class="form-control" id="email">
+                            </div>
+
+
+                            <div class="col-12 mb-3">
+                                 <label for="mensaje-text">Mensaje</label>
+                                 <textarea class="form-control" id="mensaje-text"></textarea>
+                            </div>
+
+                       </form>
+                  </div>
+
+
+                  <div class="modal-footer p-0">
+                       <button type="button" class="boton w-100 rounded-0 m-0">Enviar mensaje</button>
+                  </div>
+             </div>
+        </div>
+   </div>
+<script src="../js/imagenes.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
